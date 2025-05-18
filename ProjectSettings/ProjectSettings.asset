@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: a0fe0d5174cba4496ab295921d0540a3
+  productGUID: 03e8f7d69e99f4f45814660fc39bda9d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: sb_week2_racinggame
+  productName: sb_week2_drivinggame_attempt2
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -587,7 +587,7 @@ PlayerSettings:
   ps4GarlicHeapSize: 2048
   ps4ProGarlicHeapSize: 2560
   playerPrefsMaxSize: 32768
-  ps4Passcode: zGPUxbjwfmCD4k54ioqtuuGIw7UOYW10
+  ps4Passcode: aDFAJw275113KuS7xX8fan1DipARIN1D
   ps4pnSessions: 1
   ps4pnPresence: 1
   ps4pnFriends: 1
@@ -655,7 +655,8 @@ PlayerSettings:
   webGLCloseOnQuit: 0
   webWasm2023: 0
   webEnableSubmoduleStrippingCompatibility: 0
-  scriptingDefineSymbols: {}
+  scriptingDefineSymbols:
+    Standalone: MAPMAGIC2;MM_NATIVE
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend:
@@ -676,14 +677,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: sb_week2_racinggame
+  metroPackageName: sb_week2_drivinggame_attempt2
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: sb_week2_racinggame
+  metroApplicationDescription: sb_week2_drivinggame_attempt2
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -753,7 +754,7 @@ PlayerSettings:
   qnxGraphicConfPath: 
   apiCompatibilityLevel: 6
   captureStartupLogs: {}
-  activeInputHandler: 1
+  activeInputHandler: 2
   windowsGamepadBackendHint: 0
   cloudProjectId: 
   framebufferDepthMemorylessMode: 0
