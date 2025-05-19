@@ -36,14 +36,17 @@ public class CameraController : MonoBehaviour
         transform.rotation = Quaternion.Euler(90, 180, 0);
     }
 	}
-	
-	private void LateUpdate()
-	{
-		//Method 1, hardcoding the offset
-		//transform.position = player.position + new Vector3(0,12,-12);
-		
-		//Method 2, using a variable for the offset
-		transform.position = player.position + cameraOffset;
+
+  private void LateUpdate()
+  {
+    //Method 1, hardcoding the offset
+    //transform.position = player.position + new Vector3(0,12,-12);
+
+    //Method 2, using a variable for the offset
+    transform.position = player.position + cameraOffset;
+    
+    
+
     }
    
   //  if(Input.GetKeyDown(KeyCode.L))

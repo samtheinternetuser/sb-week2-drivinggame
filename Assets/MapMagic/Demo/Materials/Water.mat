@@ -25,7 +25,6 @@ Material:
   disabledShaderPasses:
   - MOTIONVECTORS
   - DepthOnly
-  - SHADOWCASTER
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
@@ -56,7 +55,7 @@ Material:
         m_Offset: {x: 0, y: 0}
     - _MainTex:
         m_Texture: {fileID: 0}
-        m_Scale: {x: 200, y: 200}
+        m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
         m_Texture: {fileID: 0}
@@ -125,13 +124,13 @@ Material:
     - _ZWrite: 0
     m_Colors:
     - _BaseColor: {r: 0.09553414, g: 0.17863095, b: 0.22794113, a: 0.659}
-    - _Color: {r: 0.09553411, g: 0.17863092, b: 0.2279411, a: 0.659}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 0.5}
     - _EmissionColorUI: {r: 1, g: 1, b: 1, a: 1}
     - _SpecColor: {r: 0.17647058, g: 0.17647058, b: 0.17647058, a: 1}
   m_BuildTextureStacks: []
   m_AllowLocking: 1
---- !u!114 &602166878261340787
+--- !u!114 &7183765703916728134
 MonoBehaviour:
   m_ObjectHideFlags: 11
   m_CorrespondingSourceObject: {fileID: 0}
@@ -143,4 +142,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  version: -1
+  version: 9
